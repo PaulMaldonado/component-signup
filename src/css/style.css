@@ -1,0 +1,115 @@
+:root {
+    --primary-color: hsl(0, 100%, 74%);
+    --green-color: hsl(154, 59%, 51%);
+    --blue-color: hsl(248, 32%, 49%);
+    --dark-blue-color: hsl(249, 10%, 26%);
+    --grayish-blue-color: hsl(246, 25%, 77%);
+    --font-size-fonts: 16px;
+    --weights-400: 400;
+    --weights-500: 500;
+    --weights-600: 600;
+    --weights-700: 700;
+}
+
+/* Estilos generales en el body */
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Imagen de fondo */
+
+.hero-image {
+    background-image: url('../img/bg-intro-desktop.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-color: var(--primary-color);
+}
+
+.title {
+    font-size: 2em;
+    font-weight: var(--weights-700);
+    font-family: var(--type-fonts);
+    color: #fff;
+    white-space: pre-line;
+    line-height: 1.5rem;
+}
+
+.subtitle {
+    color: var(--grayish-blue-color);
+    font-weight: var(--weights-600);
+    font-size: var(--font-size-fonts);
+}
+
+.btn-blue-color {
+    background-color: var(--blue-color);
+    color: #fff;
+}
+
+.btn-blue-color:hover {
+    color: #fff;
+}
+
+.money-month {
+    color: var(--grayish-blue-color);
+}
+
+.btn-success-form {
+    background-color: var(--green-color);
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: var(--weights-600);
+}
+
+.btn-success-form:hover {
+    color: #fff;
+}
+
+.terms-and-services {
+    color: var(--grayish-blue-color);
+    font-size: 12px;
+}
+
+.terms {
+    color: var(--primary-color);
+    font-weight: var(--weights-700);
+}
+
+input.form-control {
+    color: var(--dark-blue-color);
+    font-weight: var(--weights-700);
+    font-size: 12px;
+    margin-left: 8px;
+    font-family: var(--type-fonts);
+}
+
+input:focus {
+    border: 1px solid back;
+}
+
+.form-control:focus {
+    border: 1px solid back;
+}
+
+@media (min-width: 1200px) {
+    .hero-image {
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media (min-width: 1400px) {
+    .hero-image {
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-image {
+        width: 100%;
+        height: 100vh;
+    }
+}
