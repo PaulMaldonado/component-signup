@@ -4,7 +4,7 @@ Esta solución viene de [Intro component with sign up form challenge on Frontend
 Frontend Mentor te ayuda a hacer crecer tus conocimientos con projectos reales.
 
 ## Link del deploy
-- Visita el proyect - (https://https://component-signup.vercel.app/)
+- Visita el proyect - (https://component-signup.vercel.app/)
 
 ## Autor 
 - GitHub - [Jorge Paúl] (https://github.com/PaulMaldonado)
